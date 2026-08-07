@@ -11,7 +11,6 @@ import {
   findColorIndex,
   type Color,
 } from "@/config/colors";
-import { slugToName } from "@/utils/username";
 import { getStoredResult, storeResult } from "@/utils/rouletteStorage";
 
 const SPIN_TURNS = 5;
